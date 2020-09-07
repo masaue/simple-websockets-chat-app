@@ -1,0 +1,25 @@
+{
+  "name": "simple-websockets-chat-app",
+  "version": "1.0.0",
+  "description": "This is the code and template for the simple-websocket-chat-app.  There are three functions contained within the directories and a SAM template that wires them up to a DynamoDB table and provides the minimal set of permissions needed to run the app:",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masaue/simple-websockets-chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masaue/simple-websockets-chat-app/issues"
+  },
+  "homepage": "https://github.com/masaue/simple-websockets-chat-app#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.747.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
